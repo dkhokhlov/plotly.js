@@ -93,7 +93,7 @@ proto.prepareOptions = function() {
         glOptions: {
             preserveDrawingBuffer: preserveDrawingBuffer,
             premultipliedAlpha: true,
-            antialias: true
+            antialias: false
         },
         container: scene.container,
         axes: scene.axesOptions,
@@ -115,7 +115,7 @@ proto.prepareOptions = function() {
                 canvas: STATIC_CANVAS,
                 preserveDrawingBuffer: true,
                 premultipliedAlpha: true,
-                antialias: true
+                antialias: false
             });
             if(!STATIC_CONTEXT) {
                 throw new Error('error creating static canvas/context for image server');
