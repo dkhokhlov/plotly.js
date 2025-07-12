@@ -1,9 +1,3 @@
-/**
-* plotly.js v3.0.1
-* Copyright 2012-2025, Plotly, Inc.
-* All rights reserved.
-* Licensed under the MIT license
-*/
 (
  function(root, factory) {
   if (typeof module === "object" && module.exports) {

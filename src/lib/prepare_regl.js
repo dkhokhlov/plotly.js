@@ -34,7 +34,7 @@ module.exports = function prepareRegl(gd, extensions, reglPrecompiled) {
             d.regl = createRegl({
                 canvas: this,
                 attributes: {
-                    antialias: !d.pick,
+                    antialias: false,
                     preserveDrawingBuffer: true
                 },
                 pixelRatio: gd._context.plotGlPixelRatio || global.devicePixelRatio,
